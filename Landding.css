@@ -1,0 +1,81 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#logo{
+    margin: 1px 3px;
+}
+#logo img{
+    height: 100px;
+    margin: 4px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li {
+    
+    list-style: none;
+    font-size: large;
+}
+#navbar ul li a{
+  display: block;
+  padding: 3px 80px;
+  border: 22px;
+  text-decoration: none;
+}
+#navbar ul li a :hover{
+    counter-reset: black;
+    background-color: white;
+}
+body{
+    background-image: url(bg.jpg) ;  
+}
+.asp
+{
+    color:rgba(8, 7, 7, 0.918);
+    font-size: 25px;
+}
+h3{
+   text-align: center;
+   color: blue;
+}
+.class{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    size: 20px;
+    height: 20px;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    color: black;
+    border-width: 1px;
+    border-color: #5f6368;
+    height: 44px;
+    border-radius: 22px;
+    background-color: black;
+    color: azure;
+    font-size: larger;
+}
+button{
+    background-color: #303134;
+    border-width: 1px;
+    border-color: #5f6368;
+    border-style: solid;
+    color: #e8eaed;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    cursor: pointer;
+}
+
+
+
+
+    
+
+
